@@ -1,131 +1,61 @@
 /caps-man channel
-add band=2ghz-b/g/n control-channel-width=20mhz frequency=2412 name=ch1
-add band=2ghz-b/g/n control-channel-width=20mhz frequency=2437 name=ch6
-add band=2ghz-b/g/n control-channel-width=20mhz frequency=2462 name=ch11
+# --- 2.4 GHz (Apenas os canais não sobrepostos de 20MHz) ---
+add band=2ghz-b/g/n control-channel-width=20mhz frequency=2412 name=ch1-20MHz
+add band=2ghz-b/g/n control-channel-width=20mhz frequency=2437 name=ch6-20MHz
+add band=2ghz-b/g/n control-channel-width=20mhz frequency=2462 name=ch11-20MHz
 
-# --- Canais 5GHz 20MHz ---
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5180 name=ch36
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5200 name=ch40
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5220 name=ch44
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5240 name=ch48
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5260 name=ch52
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5280 name=ch56
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5300 name=ch60
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5320 name=ch64
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5500 name=ch100
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5520 name=ch104
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5540 name=ch108
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5560 name=ch112
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5580 name=ch116
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5600 name=ch120
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5620 name=ch124
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5640 name=ch128
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5660 name=ch132
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5680 name=ch136
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5700 name=ch140
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5720 name=ch144
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5745 name=ch149
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5765 name=ch153
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5785 name=ch157
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5805 name=ch161
-add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5825 name=ch165
+# --- 5 GHz 20MHz (Canais de controle básicos) ---
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5180 name=ch36-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5200 name=ch40-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5220 name=ch44-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5240 name=ch48-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5260 name=ch52-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5280 name=ch56-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5300 name=ch60-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5320 name=ch64-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5500 name=ch100-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5520 name=ch104-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5540 name=ch108-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5560 name=ch112-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5580 name=ch116-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5600 name=ch120-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5620 name=ch124-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5640 name=ch128-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5660 name=ch132-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5680 name=ch136-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5700 name=ch140-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5720 name=ch144-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5745 name=ch149-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5765 name=ch153-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5785 name=ch157-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5805 name=ch161-20MHz
+add band=5ghz-a/n/ac control-channel-width=20mhz frequency=5825 name=ch165-20MHz
 
-# --- Canais 5GHz 40MHz (canal de controle e a extensão) ---
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5180 name=ch38@40MHz-f5180
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=eC frequency=5200 name=ch38@40MHz-f5200
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5220 name=ch46@40MHz-f5220
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=eC frequency=5240 name=ch46@40MHz-f5240
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5260 name=ch54@40MHz-f5260
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=eC frequency=5280 name=ch54@40MHz-f5280
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5300 name=ch62@40MHz-f5300
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=eC frequency=5320 name=ch62@40MHz-f5320
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5500 name=ch102@40MHz-f5500
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=eC frequency=5520 name=ch102@40MHz-f5520
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5540 name=ch110@40MHz-f5540
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=eC frequency=5560 name=ch110@40MHz-f5560
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5580 name=ch118@40MHz-f5580
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=eC frequency=5600 name=ch118@40MHz-f5600
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5620 name=ch126@40MHz-f5620
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=eC frequency=5640 name=ch126@40MHz-f5640
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5660 name=ch134@40MHz-f5660
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=eC frequency=5680 name=ch134@40MHz-f5680
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5700 name=ch142@40MHz-f5700
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=eC frequency=5720 name=ch142@40MHz-f5720
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5745 name=ch151@40MHz-f5745
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=eC frequency=5765 name=ch151@40MHz-f5765
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5785 name=ch159@40MHz-f5785
-add band=5ghz-n/ac control-channel-width=20mhz extension-channel=eC frequency=5805 name=ch159@40MHz-f5805
+# --- 5 GHz 40MHz (Apenas o canal de controle inferior e a extensão superior (Ce), representa o par de canais) ---
+add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5180 name=ch38-40MHz
+add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5220 name=ch46-40MHz
+add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5260 name=ch54-40MHz
+add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5300 name=ch62-40MHz
+add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5500 name=ch102-40MHz
+add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5540 name=ch110-40MHz
+add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5580 name=ch118-40MHz
+add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5620 name=ch126-40MHz
+add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5660 name=ch134-40MHz
+add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5700 name=ch142-40MHz
+add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5745 name=ch151-40MHz
+add band=5ghz-n/ac control-channel-width=20mhz extension-channel=Ce frequency=5785 name=ch159-40MHz
 
-# --- Canais 5GHz 80MHz (canal de controle de 20MHz (frequência) e a extensão) ---
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5180 name=ch42@80MHz-f5180
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCee frequency=5200 name=ch42@80MHz-f5200
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCe frequency=5220 name=ch42@80MHz-f5220
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeC frequency=5240 name=ch42@80MHz-f5240
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5260 name=ch58@80MHz-f5260
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCee frequency=5280 name=ch58@80MHz-f5280
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCe frequency=5300 name=ch58@80MHz-f5300
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeC frequency=5320 name=ch58@80MHz-f5320
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5500 name=ch106@80MHz-f5500
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCee frequency=5520 name=ch106@80MHz-f5520
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCe frequency=5540 name=ch106@80MHz-f5540
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeC frequency=5560 name=ch106@80MHz-f5560
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5580 name=ch122@80MHz-f5580
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCee frequency=5600 name=ch122@80MHz-f5600
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCe frequency=5620 name=ch122@80MHz-f5620
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeC frequency=5640 name=ch122@80MHz-f5640
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5660 name=ch138@80MHz-f5660
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCee frequency=5680 name=ch138@80MHz-f5680
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCe frequency=5700 name=ch138@80MHz-f5700
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeC frequency=5720 name=ch138@80MHz-f5720
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5745 name=ch155@80MHz-f5745
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCee frequency=5765 name=ch155@80MHz-f5765
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCe frequency=5785 name=ch155@80MHz-f5785
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeC frequency=5805 name=ch155@80MHz-f5805
+# --- 5 GHz 80MHz (Apenas o canal de controle inferior e a extensão Ceee, representa o quad-canal) ---
+add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5180 name=ch42-80MHz
+add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5260 name=ch58-80MHz
+add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5500 name=ch106-80MHz
+add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5580 name=ch122-80MHz
+add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5660 name=ch138-80MHz
+add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5745 name=ch155-80MHz
 
-# --- Canais 5GHz 160MHz (canal de controle de 20MHz (frequência) e a extensão) ---
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceeeeeee frequency=5180 name=ch50@160MHz-f5180
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCeeeeee frequency=5200 name=ch50@160MHz-f5200
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCeeeee frequency=5220 name=ch50@160MHz-f5220
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeCeeee frequency=5240 name=ch50@160MHz-f5240
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceeeeeee frequency=5260 name=ch50@160MHz-f5260
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCeeeeee frequency=5280 name=ch50@160MHz-f5280
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCeeeee frequency=5300 name=ch50@160MHz-f5300
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeCeeee frequency=5320 name=ch50@160MHz-f5320
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeeCeee frequency=5500 name=ch114@160MHz-f5500
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeeeCee frequency=5520 name=ch114@160MHz-f5520
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeeeeCe frequency=5540 name=ch114@160MHz-f5540
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeeeeeC frequency=5560 name=ch114@160MHz-f5560
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeeCeee frequency=5580 name=ch114@160MHz-f5580
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeeeCee frequency=5600 name=ch114@160MHz-f5600
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeeeeCe frequency=5620 name=ch114@160MHz-f5620
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeeeeeC frequency=5640 name=ch114@160MHz-f5640
-
-# --- Canais 5GHz 80MHz/40MHz (frequência do canal de controle, indicando 80MHz/40MHz) ---
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5180 name=ch42@80MHz-f5180-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCee frequency=5200 name=ch42@80MHz-f5200-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCe frequency=5220 name=ch42@80MHz-f5220-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeC frequency=5240 name=ch42@80MHz-f5240-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5260 name=ch58@80MHz-f5260-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCee frequency=5280 name=ch58@80MHz-f5280-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCe frequency=5300 name=ch58@80MHz-f5300-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeC frequency=5320 name=ch58@80MHz-f5320-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5500 name=ch106@80MHz-f5500-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCee frequency=5520 name=ch106@80MHz-f5520-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCe frequency=5540 name=ch106@80MHz-f5540-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeC frequency=5560 name=ch106@80MHz-f5560-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5580 name=ch122@80MHz-f5580-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCee frequency=5600 name=ch122@80MHz-f5600-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCe frequency=5620 name=ch122@80MHz-f5620-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeC frequency=5640 name=ch122@80MHz-f5640-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5660 name=ch138@80MHz-f5660-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCee frequency=5680 name=ch138@80MHz-f5680-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCe frequency=5700 name=ch138@80MHz-f5700-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeC frequency=5720 name=ch138@80MHz-f5720-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequency=5745 name=ch155@80MHz-f5745-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCee frequency=5765 name=ch155@80MHz-f5765-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCe frequency=5785 name=ch155@80MHz-f5785-40M
-add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeC frequency=5805 name=ch155@80MHz-f5805-40M
-
+# --- 5 GHz 160MHz (Apenas a frequência de controle mais baixa) ---
+add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceeeeeee frequency=5180 name=ch50-160MHz
+add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceeeeeee frequency=5500 name=ch114-160MHz
 
 /interface wireless channels
 
